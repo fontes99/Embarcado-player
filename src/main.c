@@ -292,14 +292,16 @@ int main(void){
 	while (1){
 
 		if (musica == 1){
+			pio_clear(PIOC, LED1_IDX_MASK);
+
 			if (pio_get(BUT2_PIO, PIO_DEFAULT, BUT2_IDX_MASK) == 0){
-				pio_clear(PIOC, LED1_IDX_MASK);			
 				tocarMusica(200, SOSmelody, sizeof(SOSmelody)/sizeof(SOSmelody[0]));
 			}
 		}
 		else if (musica == 0){
+			pio_clear(PIOD, LED3_IDX_MASK);
+			
 			if (pio_get(BUT2_PIO, PIO_DEFAULT, BUT2_IDX_MASK) == 0){	
-				pio_clear(PIOD, LED3_IDX_MASK);
 				tocarMusica(85, GOTmelody, sizeof(GOTmelody)/sizeof(GOTmelody[0]));
 			}
 		}

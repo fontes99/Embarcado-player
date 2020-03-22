@@ -4209,7 +4209,7 @@ OUTPUT(SAME70.elf elf32-littlearm)
  .debug_macro   0x0001cbe8      0x220 src/main.o
  .debug_macro   0x0001ce08      0x1e1 src/main.o
 
-.debug_line     0x00000000     0x732d
+.debug_line     0x00000000     0x732c
  .debug_line    0x00000000      0xb27 src/ASF/common/services/clock/same70/sysclk.o
  .debug_line    0x00000b27      0x9c5 src/ASF/common/services/delay/sam/cycle_counter.o
  .debug_line    0x000014ec      0x9d9 src/ASF/common/utils/interrupt/interrupt_sam_nvic.o
@@ -4219,9 +4219,9 @@ OUTPUT(SAME70.elf elf32-littlearm)
  .debug_line    0x00004853      0xb1f src/ASF/sam/drivers/pmc/sleep.o
  .debug_line    0x00005372      0xa4b src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
  .debug_line    0x00005dbd      0x7bf src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
- .debug_line    0x0000657c      0xdb1 src/main.o
+ .debug_line    0x0000657c      0xdb0 src/main.o
 
-.debug_str      0x00000000    0x89efe
+.debug_str      0x00000000    0x89f2f
  .debug_str     0x00000000    0x85794 src/ASF/common/services/clock/same70/sysclk.o
                               0x85e39 (size before relaxing)
  .debug_str     0x00085794      0x1b5 src/ASF/common/services/delay/sam/cycle_counter.o
@@ -4240,8 +4240,8 @@ OUTPUT(SAME70.elf elf32-littlearm)
                               0x82659 (size before relaxing)
  .debug_str     0x00087a6a      0x137 src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
                               0x727e4 (size before relaxing)
- .debug_str     0x00087ba1     0x235d src/main.o
-                              0x88c0b (size before relaxing)
+ .debug_str     0x00087ba1     0x238e src/main.o
+                              0x88c18 (size before relaxing)
 
 .debug_frame    0x00000000      0xff0
  .debug_frame   0x00000000       0x88 src/ASF/common/services/clock/same70/sysclk.o
