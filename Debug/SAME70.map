@@ -1105,7 +1105,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x3ca src/ASF/sam/drivers/mpu/mpu.o
  .debug_macro   0x00000000      0x1c8 src/ASF/sam/drivers/mpu/mpu.o
  .debug_line    0x00000000      0xa68 src/ASF/sam/drivers/mpu/mpu.o
- .debug_str     0x00000000    0x82bd2 src/ASF/sam/drivers/mpu/mpu.o
+ .debug_str     0x00000000    0x82bdf src/ASF/sam/drivers/mpu/mpu.o
  .comment       0x00000000       0x5a src/ASF/sam/drivers/mpu/mpu.o
  .debug_frame   0x00000000       0x84 src/ASF/sam/drivers/mpu/mpu.o
  .ARM.attributes
@@ -3038,7 +3038,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 src/ASF/sam/utils/syscalls/gcc/syscalls.o
  .debug_macro   0x00000000      0x122 src/ASF/sam/utils/syscalls/gcc/syscalls.o
  .debug_line    0x00000000      0x3e4 src/ASF/sam/utils/syscalls/gcc/syscalls.o
- .debug_str     0x00000000     0x7433 src/ASF/sam/utils/syscalls/gcc/syscalls.o
+ .debug_str     0x00000000     0x7440 src/ASF/sam/utils/syscalls/gcc/syscalls.o
  .comment       0x00000000       0x5a src/ASF/sam/utils/syscalls/gcc/syscalls.o
  .debug_frame   0x00000000       0xa0 src/ASF/sam/utils/syscalls/gcc/syscalls.o
  .ARM.attributes
@@ -3474,7 +3474,7 @@ LOAD d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gc
                 0x2045fffc                __ram_end__ = ((ORIGIN (ram) + LENGTH (ram)) - 0x4)
                 0x00000200                HEAP_SIZE = DEFINED (HEAP_SIZE)?HEAP_SIZE:0x200
 
-.text           0x00400000     0x1f3c
+.text           0x00400000     0x1f34
                 0x00400000                . = ALIGN (0x4)
                 0x00400000                _sfixed = .
  *(.vectors .vectors.*)
@@ -3656,161 +3656,161 @@ LOAD d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gc
                 0x00400bdc                init
  *fill*         0x00400da4        0x4 
  .text.tocarMusica
-                0x00400da8      0x2b0 src/main.o
+                0x00400da8      0x2a8 src/main.o
                 0x00400da8                tocarMusica
- .text.main     0x00401058       0xc4 src/main.o
-                0x00401058                main
- .text          0x0040111c      0x370 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
-                0x0040111c                __aeabi_drsub
-                0x00401124                __aeabi_dsub
-                0x00401124                __subdf3
-                0x00401128                __aeabi_dadd
-                0x00401128                __adddf3
-                0x004013a0                __floatunsidf
-                0x004013a0                __aeabi_ui2d
-                0x004013c0                __floatsidf
-                0x004013c0                __aeabi_i2d
-                0x004013e4                __aeabi_f2d
-                0x004013e4                __extendsfdf2
-                0x00401420                __floatundidf
-                0x00401420                __aeabi_ul2d
-                0x00401430                __floatdidf
-                0x00401430                __aeabi_l2d
- .text          0x0040148c      0x424 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_muldivdf3.o)
-                0x0040148c                __aeabi_dmul
-                0x0040148c                __muldf3
-                0x004016e0                __divdf3
-                0x004016e0                __aeabi_ddiv
- .text          0x004018b0      0x110 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
-                0x004018b0                __gtdf2
-                0x004018b0                __gedf2
-                0x004018b8                __ltdf2
-                0x004018b8                __ledf2
-                0x004018c0                __nedf2
-                0x004018c0                __eqdf2
-                0x004018c0                __cmpdf2
-                0x0040193c                __aeabi_cdrcmple
-                0x0040194c                __aeabi_cdcmpeq
-                0x0040194c                __aeabi_cdcmple
-                0x0040195c                __aeabi_dcmpeq
-                0x00401970                __aeabi_dcmplt
-                0x00401984                __aeabi_dcmple
-                0x00401998                __aeabi_dcmpge
-                0x004019ac                __aeabi_dcmpgt
- .text          0x004019c0       0x30 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_aeabi_uldivmod.o)
-                0x004019c0                __aeabi_uldivmod
- .text          0x004019f0       0x4c d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_fixunssfdi.o)
-                0x004019f0                __fixunssfdi
-                0x004019f0                __aeabi_f2ulz
- .text          0x00401a3c       0x48 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_fixunsdfdi.o)
-                0x00401a3c                __fixunsdfdi
-                0x00401a3c                __aeabi_d2ulz
- .text          0x00401a84      0x2dc d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_udivmoddi4.o)
-                0x00401a84                __udivmoddi4
- .text          0x00401d60        0x4 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_dvmd_tls.o)
-                0x00401d60                __aeabi_idiv0
-                0x00401d60                __aeabi_ldiv0
- .text          0x00401d64       0x40 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixunsdfsi.o)
-                0x00401d64                __aeabi_d2uiz
-                0x00401d64                __fixunsdfsi
+ .text.main     0x00401050       0xc4 src/main.o
+                0x00401050                main
+ .text          0x00401114      0x370 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
+                0x00401114                __aeabi_drsub
+                0x0040111c                __aeabi_dsub
+                0x0040111c                __subdf3
+                0x00401120                __aeabi_dadd
+                0x00401120                __adddf3
+                0x00401398                __floatunsidf
+                0x00401398                __aeabi_ui2d
+                0x004013b8                __floatsidf
+                0x004013b8                __aeabi_i2d
+                0x004013dc                __aeabi_f2d
+                0x004013dc                __extendsfdf2
+                0x00401418                __floatundidf
+                0x00401418                __aeabi_ul2d
+                0x00401428                __floatdidf
+                0x00401428                __aeabi_l2d
+ .text          0x00401484      0x424 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_muldivdf3.o)
+                0x00401484                __aeabi_dmul
+                0x00401484                __muldf3
+                0x004016d8                __divdf3
+                0x004016d8                __aeabi_ddiv
+ .text          0x004018a8      0x110 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
+                0x004018a8                __gtdf2
+                0x004018a8                __gedf2
+                0x004018b0                __ltdf2
+                0x004018b0                __ledf2
+                0x004018b8                __nedf2
+                0x004018b8                __eqdf2
+                0x004018b8                __cmpdf2
+                0x00401934                __aeabi_cdrcmple
+                0x00401944                __aeabi_cdcmpeq
+                0x00401944                __aeabi_cdcmple
+                0x00401954                __aeabi_dcmpeq
+                0x00401968                __aeabi_dcmplt
+                0x0040197c                __aeabi_dcmple
+                0x00401990                __aeabi_dcmpge
+                0x004019a4                __aeabi_dcmpgt
+ .text          0x004019b8       0x30 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_aeabi_uldivmod.o)
+                0x004019b8                __aeabi_uldivmod
+ .text          0x004019e8       0x4c d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_fixunssfdi.o)
+                0x004019e8                __fixunssfdi
+                0x004019e8                __aeabi_f2ulz
+ .text          0x00401a34       0x48 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_fixunsdfdi.o)
+                0x00401a34                __fixunsdfdi
+                0x00401a34                __aeabi_d2ulz
+ .text          0x00401a7c      0x2dc d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_udivmoddi4.o)
+                0x00401a7c                __udivmoddi4
+ .text          0x00401d58        0x4 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_dvmd_tls.o)
+                0x00401d58                __aeabi_idiv0
+                0x00401d58                __aeabi_ldiv0
+ .text          0x00401d5c       0x40 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixunsdfsi.o)
+                0x00401d5c                __aeabi_d2uiz
+                0x00401d5c                __fixunsdfsi
  .text.__libc_init_array
-                0x00401da4       0x50 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-init.o)
-                0x00401da4                __libc_init_array
+                0x00401d9c       0x50 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-init.o)
+                0x00401d9c                __libc_init_array
  .text.startup.register_fini
-                0x00401df4       0x14 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
- .text.atexit   0x00401e08        0xc d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-atexit.o)
-                0x00401e08                atexit
+                0x00401dec       0x14 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
+ .text.atexit   0x00401e00        0xc d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-atexit.o)
+                0x00401e00                atexit
  .text.__libc_fini_array
-                0x00401e14       0x34 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-fini.o)
-                0x00401e14                __libc_fini_array
+                0x00401e0c       0x34 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-fini.o)
+                0x00401e0c                __libc_fini_array
  .text.__retarget_lock_acquire_recursive
-                0x00401e48        0x4 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-lock.o)
-                0x00401e48                __retarget_lock_acquire_recursive
+                0x00401e40        0x4 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-lock.o)
+                0x00401e40                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x00401e4c        0x4 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-lock.o)
-                0x00401e4c                __retarget_lock_release_recursive
+                0x00401e44        0x4 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-lock.o)
+                0x00401e44                __retarget_lock_release_recursive
  .text.__register_exitproc
-                0x00401e50       0xc4 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__atexit.o)
-                0x00401e50                __register_exitproc
+                0x00401e48       0xc4 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__atexit.o)
+                0x00401e48                __register_exitproc
  *(.glue_7t)
- .glue_7t       0x00401f14        0x0 linker stubs
+ .glue_7t       0x00401f0c        0x0 linker stubs
  *(.glue_7)
- .glue_7        0x00401f14        0x0 linker stubs
+ .glue_7        0x00401f0c        0x0 linker stubs
  *(.rodata .rodata* .gnu.linkonce.r.*)
  .rodata._global_impure_ptr
-                0x00401f14        0x4 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-impure.o)
-                0x00401f14                _global_impure_ptr
+                0x00401f0c        0x4 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-impure.o)
+                0x00401f0c                _global_impure_ptr
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00401f18                . = ALIGN (0x4)
+                0x00401f10                . = ALIGN (0x4)
  *(.init)
- .init          0x00401f18        0x4 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crti.o
-                0x00401f18                _init
- .init          0x00401f1c        0x8 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
-                0x00401f24                . = ALIGN (0x4)
-                0x00401f24                __preinit_array_start = .
+ .init          0x00401f10        0x4 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crti.o
+                0x00401f10                _init
+ .init          0x00401f14        0x8 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
+                0x00401f1c                . = ALIGN (0x4)
+                0x00401f1c                __preinit_array_start = .
  *(.preinit_array)
-                0x00401f24                __preinit_array_end = .
-                0x00401f24                . = ALIGN (0x4)
-                0x00401f24                __init_array_start = .
+                0x00401f1c                __preinit_array_end = .
+                0x00401f1c                . = ALIGN (0x4)
+                0x00401f1c                __init_array_start = .
  *(SORT(.init_array.*))
  .init_array.00000
-                0x00401f24        0x4 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
+                0x00401f1c        0x4 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
  *(.init_array)
- .init_array    0x00401f28        0x4 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
-                0x00401f2c                __init_array_end = .
-                0x00401f2c                . = ALIGN (0x4)
+ .init_array    0x00401f20        0x4 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+                0x00401f24                __init_array_end = .
+                0x00401f24                . = ALIGN (0x4)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
  *crtend.o(.ctors)
-                0x00401f2c                . = ALIGN (0x4)
+                0x00401f24                . = ALIGN (0x4)
  *(.fini)
- .fini          0x00401f2c        0x4 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crti.o
-                0x00401f2c                _fini
- .fini          0x00401f30        0x8 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
-                0x00401f38                . = ALIGN (0x4)
-                0x00401f38                __fini_array_start = .
+ .fini          0x00401f24        0x4 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crti.o
+                0x00401f24                _fini
+ .fini          0x00401f28        0x8 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
+                0x00401f30                . = ALIGN (0x4)
+                0x00401f30                __fini_array_start = .
  *(.fini_array)
- .fini_array    0x00401f38        0x4 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+ .fini_array    0x00401f30        0x4 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
  *(SORT(.fini_array.*))
-                0x00401f3c                __fini_array_end = .
+                0x00401f34                __fini_array_end = .
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT(.dtors.*))
  *crtend.o(.dtors)
-                0x00401f3c                . = ALIGN (0x4)
-                0x00401f3c                _efixed = .
+                0x00401f34                . = ALIGN (0x4)
+                0x00401f34                _efixed = .
                 [!provide]                PROVIDE (__exidx_start, .)
 
-.vfp11_veneer   0x00401f3c        0x0
- .vfp11_veneer  0x00401f3c        0x0 linker stubs
+.vfp11_veneer   0x00401f34        0x0
+ .vfp11_veneer  0x00401f34        0x0 linker stubs
 
-.v4_bx          0x00401f3c        0x0
- .v4_bx         0x00401f3c        0x0 linker stubs
+.v4_bx          0x00401f34        0x0
+ .v4_bx         0x00401f34        0x0 linker stubs
 
-.iplt           0x00401f3c        0x0
- .iplt          0x00401f3c        0x0 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+.iplt           0x00401f34        0x0
+ .iplt          0x00401f34        0x0 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
 
-.ARM.exidx      0x00401f3c        0x8
+.ARM.exidx      0x00401f34        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x00401f3c        0x8 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x00401f34        0x8 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_udivmoddi4.o)
                 [!provide]                PROVIDE (__exidx_end, .)
 
-.eh_frame       0x00401f44        0x0
- .eh_frame      0x00401f44        0x0 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+.eh_frame       0x00401f3c        0x0
+ .eh_frame      0x00401f3c        0x0 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
 
-.rel.dyn        0x00401f44        0x0
- .rel.iplt      0x00401f44        0x0 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+.rel.dyn        0x00401f3c        0x0
+ .rel.iplt      0x00401f3c        0x0 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
 
-.jcr            0x00401f44        0x0
- .jcr           0x00401f44        0x0 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+.jcr            0x00401f3c        0x0
+ .jcr           0x00401f3c        0x0 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
 
-.igot.plt       0x00401f44        0x0
- .igot.plt      0x00401f44        0x0 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
-                0x00401f44                . = ALIGN (0x4)
-                0x00401f44                _etext = .
+.igot.plt       0x00401f3c        0x0
+ .igot.plt      0x00401f3c        0x0 d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+                0x00401f3c                . = ALIGN (0x4)
+                0x00401f3c                _etext = .
 
-.relocate       0x20400000      0xa64 load address 0x00401f44
+.relocate       0x20400000      0xa64 load address 0x00401f3c
                 0x20400000                . = ALIGN (0x4)
                 0x20400000                _srelocate = .
  *(.ramfunc .ramfunc.*)
@@ -3838,7 +3838,7 @@ LOAD d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gc
                 0x20400a64                . = ALIGN (0x4)
                 0x20400a64                _erelocate = .
 
-.bss            0x20400a64       0xc0 load address 0x004029a8
+.bss            0x20400a64       0xc0 load address 0x004029a0
                 0x20400a64                . = ALIGN (0x4)
                 0x20400a64                _sbss = .
                 0x20400a64                _szero = .
@@ -3874,7 +3874,7 @@ LOAD d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gc
                 0x20400b24                _ebss = .
                 0x20400b24                _ezero = .
 
-.stack          0x20400b24     0x2004 load address 0x00402a68
+.stack          0x20400b24     0x2004 load address 0x00402a60
                 0x20400b28                . = ALIGN (0x8)
  *fill*         0x20400b24        0x4 
                 0x20400b28                _sstack = .
@@ -3883,7 +3883,7 @@ LOAD d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gc
                 0x20402b28                . = ALIGN (0x8)
                 0x20402b28                _estack = .
 
-.heap           0x20402b28      0x200 load address 0x00404a6c
+.heap           0x20402b28      0x200 load address 0x00404a64
                 0x20402b28                . = ALIGN (0x8)
                 0x20402b28                _sheap = .
                 0x20402d28                . = (. + HEAP_SIZE)
@@ -3969,7 +3969,7 @@ OUTPUT(SAME70.elf elf32-littlearm)
  .comment       0x00000059       0x5a src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
  .comment       0x00000059       0x5a src/main.o
 
-.debug_info     0x00000000     0xd3df
+.debug_info     0x00000000     0xd44d
  .debug_info    0x00000000     0x1267 src/ASF/common/services/clock/same70/sysclk.o
  .debug_info    0x00001267      0xa45 src/ASF/common/services/delay/sam/cycle_counter.o
  .debug_info    0x00001cac      0xb01 src/ASF/common/utils/interrupt/interrupt_sam_nvic.o
@@ -3979,9 +3979,9 @@ OUTPUT(SAME70.elf elf32-littlearm)
  .debug_info    0x000081f5     0x1640 src/ASF/sam/drivers/pmc/sleep.o
  .debug_info    0x00009835     0x156a src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
  .debug_info    0x0000ad9f      0x55b src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
- .debug_info    0x0000b2fa     0x20e5 src/main.o
+ .debug_info    0x0000b2fa     0x2153 src/main.o
 
-.debug_abbrev   0x00000000     0x1c21
+.debug_abbrev   0x00000000     0x1c3f
  .debug_abbrev  0x00000000      0x31f src/ASF/common/services/clock/same70/sysclk.o
  .debug_abbrev  0x0000031f      0x1b3 src/ASF/common/services/delay/sam/cycle_counter.o
  .debug_abbrev  0x000004d2      0x212 src/ASF/common/utils/interrupt/interrupt_sam_nvic.o
@@ -3991,16 +3991,16 @@ OUTPUT(SAME70.elf elf32-littlearm)
  .debug_abbrev  0x0000118c      0x32b src/ASF/sam/drivers/pmc/sleep.o
  .debug_abbrev  0x000014b7      0x2e4 src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
  .debug_abbrev  0x0000179b      0x102 src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
- .debug_abbrev  0x0000189d      0x384 src/main.o
+ .debug_abbrev  0x0000189d      0x3a2 src/main.o
 
-.debug_loc      0x00000000     0x2ab0
+.debug_loc      0x00000000     0x2aa1
  .debug_loc     0x00000000      0x183 src/ASF/common/services/clock/same70/sysclk.o
  .debug_loc     0x00000183      0xea4 src/ASF/sam/drivers/pio/pio.o
  .debug_loc     0x00001027      0x588 src/ASF/sam/drivers/pio/pio_handler.o
  .debug_loc     0x000015af      0xce3 src/ASF/sam/drivers/pmc/pmc.o
  .debug_loc     0x00002292      0x389 src/ASF/sam/drivers/pmc/sleep.o
  .debug_loc     0x0000261b       0x77 src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
- .debug_loc     0x00002692      0x41e src/main.o
+ .debug_loc     0x00002692      0x40f src/main.o
 
 .debug_aranges  0x00000000      0x5a8
  .debug_aranges
@@ -4209,7 +4209,7 @@ OUTPUT(SAME70.elf elf32-littlearm)
  .debug_macro   0x0001cbe8      0x220 src/main.o
  .debug_macro   0x0001ce08      0x1e1 src/main.o
 
-.debug_line     0x00000000     0x732c
+.debug_line     0x00000000     0x7327
  .debug_line    0x00000000      0xb27 src/ASF/common/services/clock/same70/sysclk.o
  .debug_line    0x00000b27      0x9c5 src/ASF/common/services/delay/sam/cycle_counter.o
  .debug_line    0x000014ec      0x9d9 src/ASF/common/utils/interrupt/interrupt_sam_nvic.o
@@ -4219,29 +4219,29 @@ OUTPUT(SAME70.elf elf32-littlearm)
  .debug_line    0x00004853      0xb1f src/ASF/sam/drivers/pmc/sleep.o
  .debug_line    0x00005372      0xa4b src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
  .debug_line    0x00005dbd      0x7bf src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
- .debug_line    0x0000657c      0xdb0 src/main.o
+ .debug_line    0x0000657c      0xdab src/main.o
 
-.debug_str      0x00000000    0x89f2f
- .debug_str     0x00000000    0x85794 src/ASF/common/services/clock/same70/sysclk.o
-                              0x85e39 (size before relaxing)
- .debug_str     0x00085794      0x1b5 src/ASF/common/services/delay/sam/cycle_counter.o
-                              0x81fbc (size before relaxing)
- .debug_str     0x00085949       0x94 src/ASF/common/utils/interrupt/interrupt_sam_nvic.o
-                              0x81e8c (size before relaxing)
- .debug_str     0x000859dd      0xb31 src/ASF/sam/drivers/pio/pio.o
-                              0x829e2 (size before relaxing)
- .debug_str     0x0008650e      0x59e src/ASF/sam/drivers/pio/pio_handler.o
-                              0x82b04 (size before relaxing)
- .debug_str     0x00086aac      0x6c2 src/ASF/sam/drivers/pmc/pmc.o
-                              0x82b37 (size before relaxing)
- .debug_str     0x0008716e      0x24d src/ASF/sam/drivers/pmc/sleep.o
-                              0x8575e (size before relaxing)
- .debug_str     0x000873bb      0x6af src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
-                              0x82659 (size before relaxing)
- .debug_str     0x00087a6a      0x137 src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
-                              0x727e4 (size before relaxing)
- .debug_str     0x00087ba1     0x238e src/main.o
-                              0x88c18 (size before relaxing)
+.debug_str      0x00000000    0x89f19
+ .debug_str     0x00000000    0x857a1 src/ASF/common/services/clock/same70/sysclk.o
+                              0x85e46 (size before relaxing)
+ .debug_str     0x000857a1      0x1b5 src/ASF/common/services/delay/sam/cycle_counter.o
+                              0x81fc9 (size before relaxing)
+ .debug_str     0x00085956       0x94 src/ASF/common/utils/interrupt/interrupt_sam_nvic.o
+                              0x81e99 (size before relaxing)
+ .debug_str     0x000859ea      0xb31 src/ASF/sam/drivers/pio/pio.o
+                              0x829ef (size before relaxing)
+ .debug_str     0x0008651b      0x59e src/ASF/sam/drivers/pio/pio_handler.o
+                              0x82b11 (size before relaxing)
+ .debug_str     0x00086ab9      0x6c2 src/ASF/sam/drivers/pmc/pmc.o
+                              0x82b44 (size before relaxing)
+ .debug_str     0x0008717b      0x24d src/ASF/sam/drivers/pmc/sleep.o
+                              0x8576b (size before relaxing)
+ .debug_str     0x000873c8      0x6af src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
+                              0x82666 (size before relaxing)
+ .debug_str     0x00087a77      0x137 src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
+                              0x727f1 (size before relaxing)
+ .debug_str     0x00087bae     0x236b src/main.o
+                              0x88c26 (size before relaxing)
 
 .debug_frame    0x00000000      0xff0
  .debug_frame   0x00000000       0x88 src/ASF/common/services/clock/same70/sysclk.o

@@ -23,11 +23,10 @@
 #include "asf.h"
 
 
-#include "CANTINA.h"
+#include "SOS.h"
 #include "GOT.h"
 
 #include "math.h"
-
 
 
 /************************************************************************/
@@ -107,21 +106,21 @@ void alteraMusica(void)
 }
 
 /************************************************************************/
-/* constants                                                            */
+/* Struct                                                              */
 /************************************************************************/
 
+typedef struct{
+	int *melodia;
+	int tempo;
+	int n_notas;
+} song;
 
 /************************************************************************/
-/* variaveis globais                                                    */
-/************************************************************************/
-
-
-/************************************************************************/
-/* prototypes                                                           */
+/* Declarar funções                                                     */
 /************************************************************************/
 
 void init(void);
-void tocarMusica(int tempo, int melody[], int n_notas); //int melody[260], 
+void tocarMusica(int tempo, int melody[], int n_notas);
 
 /************************************************************************/
 /* funcoes                                                              */
@@ -208,11 +207,9 @@ void init(void){
 	
 }
 
-void tocarMusica(int tempo, int melody[], int n_notas){ 
+// função para tocar musica. chamada para tocar musicas diferentes
 
-	// sizeof gives the number of bytes, each int value is composed of two bytes (16 bits)
-	// there are two values per note (pitch and duration), so for each note there are four bytes
-	int notes = n_notas/2; //sizeof(melody) / sizeof(SOSmelody[0]) / 2;
+void tocarMusica(int tempo, int melody[], int n_notas){ 
 
 	// this calculates the duration of a whole note in ms
 	int wholenote = (60000 * 4) / tempo;
@@ -222,13 +219,15 @@ void tocarMusica(int tempo, int melody[], int n_notas){
 
 	// iterate over the notes of the song.
 	// Remember, the array is twice the number of notes (notes + durations)
-	for (int thisNote = 0; thisNote < notes * 2; thisNote += 2) {
+	for (int thisNote = 0; thisNote < n_notas; thisNote += 2) {
 
+		// checa se deu pause
 		if(flag){
 			pmc_sleep(SAM_PM_SMODE_SLEEP_WFI);
 			flag = 0;
 		}
 		
+		// checa se trocou de música
 		if(musica != comp){
 			comp = musica;
 			break;
@@ -268,7 +267,7 @@ void tocarMusica(int tempo, int melody[], int n_notas){
 				delay_us(pwm/2.0);				
 			}	
 			
-			delay_ms(1000*toca*0.1);                    // 10% de pausa para diferenciar uma nota da outra
+			delay_ms(1000*toca*0.1);                    // 10% de pausa para diferenciar notas iguais
 		}
 	}
 }
@@ -279,6 +278,20 @@ void tocarMusica(int tempo, int melody[], int n_notas){
 
 // Funcao principal chamada na inicalizacao do uC.
 int main(void){ 
+
+	// - *1) - 
+	// sizeof gives the number of bytes, each int value is composed of two bytes (16 bits)
+	// there are two values per note (pitch and duration), so for each note there are four bytes
+	
+	song got;
+	got.melodia = &GOTmelody;
+	got.tempo = 85;
+	got.n_notas = sizeof(GOTmelody)/sizeof(GOTmelody[0]);  // *1)
+
+	song storms;
+	storms.melodia = &SOSmelody;
+	storms.tempo = 200;
+	storms.n_notas = sizeof(SOSmelody)/sizeof(SOSmelody[0]);   // *1)
 
 	init();
 
@@ -295,21 +308,21 @@ int main(void){
 			pio_clear(PIOC, LED1_IDX_MASK);
 
 			if (pio_get(BUT2_PIO, PIO_DEFAULT, BUT2_IDX_MASK) == 0){
-				tocarMusica(200, SOSmelody, sizeof(SOSmelody)/sizeof(SOSmelody[0]));
+				tocarMusica(storms.tempo, storms.melodia, storms.n_notas);
 			}
 		}
 		else if (musica == 0){
 			pio_clear(PIOD, LED3_IDX_MASK);
 			
 			if (pio_get(BUT2_PIO, PIO_DEFAULT, BUT2_IDX_MASK) == 0){	
-				tocarMusica(85, GOTmelody, sizeof(GOTmelody)/sizeof(GOTmelody[0]));
+				tocarMusica(got.tempo, got.melodia, got.n_notas);
 			}
 		}
 
 		pio_set(PIOC, LED1_IDX_MASK);
 		pio_set(PIOD, LED2_IDX_MASK);
 		pio_set(PIOD, LED3_IDX_MASK);
-	
+		
 	}
   
   return 0;
