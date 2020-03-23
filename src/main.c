@@ -22,9 +22,9 @@
 
 #include "asf.h"
 
-
 #include "SOS.h"
 #include "GOT.h"
+#include "HP.h"
 
 #include "math.h"
 
@@ -100,9 +100,14 @@ void but_callback(void)
 	flag = 1;
 }
 
-void alteraMusica(void)
-{	
-	musica = !musica;
+void alteraMusica(void){
+
+	if (musica == 2){
+		musica = 0;
+	}
+	else{
+		musica += 1;
+	}	
 }
 
 /************************************************************************/
@@ -293,6 +298,11 @@ int main(void){
 	storms.tempo = 200;
 	storms.n_notas = sizeof(SOSmelody)/sizeof(SOSmelody[0]);   // *1)
 
+	song hp;
+	hp.melodia = &HPmelody;
+	hp.tempo = 144;
+	hp.n_notas = sizeof(HPmelody)/sizeof(HPmelody[0]);   // *1)
+
 	init();
 
 	pio_set(PIOC, LED1_IDX_MASK);
@@ -316,6 +326,15 @@ int main(void){
 			
 			if (pio_get(BUT2_PIO, PIO_DEFAULT, BUT2_IDX_MASK) == 0){	
 				tocarMusica(got.tempo, got.melodia, got.n_notas);
+			}
+		}
+
+		else if (musica == 2){
+			pio_clear(PIOD, LED3_IDX_MASK);
+			pio_clear(PIOC, LED1_IDX_MASK);
+			
+			if (pio_get(BUT2_PIO, PIO_DEFAULT, BUT2_IDX_MASK) == 0){	
+				tocarMusica(hp.tempo, hp.melodia, hp.n_notas);
 			}
 		}
 
