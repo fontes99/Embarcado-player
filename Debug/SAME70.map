@@ -40,11 +40,11 @@ d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm
 Allocating common symbols
 Common symbol       size              file
 
+pause               0x1               src/main.o
 __lock___atexit_recursive_mutex
                     0x1               d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-lock.o)
 __lock___arc4random_mutex
                     0x1               d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-lock.o)
-flag                0x1               src/main.o
 comp                0x1               src/main.o
 __lock___env_recursive_mutex
                     0x1               d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-lock.o)
@@ -3647,9 +3647,9 @@ LOAD d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gc
  .text.system_init_flash
                 0x00400b48       0x74 src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
                 0x00400b48                system_init_flash
- .text.but_callback
+ .text.pausaMusica
                 0x00400bbc        0xc src/main.o
-                0x00400bbc                but_callback
+                0x00400bbc                pausaMusica
  .text.alteraMusica
                 0x00400bc8       0x24 src/main.o
                 0x00400bc8                alteraMusica
@@ -3859,7 +3859,7 @@ LOAD d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gc
                 0x20400ce8        0x4 src/ASF/sam/drivers/pmc/sleep.o
  *(COMMON)
  COMMON         0x20400cec        0x3 src/main.o
-                0x20400cec                flag
+                0x20400cec                pause
                 0x20400ced                comp
                 0x20400cee                musica
  *fill*         0x20400cef        0x1 
@@ -4226,7 +4226,7 @@ OUTPUT(SAME70.elf elf32-littlearm)
  .debug_line    0x00005dbd      0x7bf src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
  .debug_line    0x0000657c      0xdbf src/main.o
 
-.debug_str      0x00000000    0x89f22
+.debug_str      0x00000000    0x89f30
  .debug_str     0x00000000    0x857a1 src/ASF/common/services/clock/same70/sysclk.o
                               0x85e46 (size before relaxing)
  .debug_str     0x000857a1      0x1b5 src/ASF/common/services/delay/sam/cycle_counter.o
@@ -4239,13 +4239,13 @@ OUTPUT(SAME70.elf elf32-littlearm)
                               0x82b11 (size before relaxing)
  .debug_str     0x00086ab9      0x6c2 src/ASF/sam/drivers/pmc/pmc.o
                               0x82b44 (size before relaxing)
- .debug_str     0x0008717b      0x24d src/ASF/sam/drivers/pmc/sleep.o
+ .debug_str     0x0008717b      0x256 src/ASF/sam/drivers/pmc/sleep.o
                               0x8576b (size before relaxing)
- .debug_str     0x000873c8      0x6af src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
+ .debug_str     0x000873d1      0x6af src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
                               0x82666 (size before relaxing)
- .debug_str     0x00087a77      0x137 src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
+ .debug_str     0x00087a80      0x137 src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
                               0x727f1 (size before relaxing)
- .debug_str     0x00087bae     0x2374 src/main.o
+ .debug_str     0x00087bb7     0x2379 src/main.o
                               0x88c2f (size before relaxing)
 
 .debug_frame    0x00000000      0xff0
@@ -4499,14 +4499,12 @@ alteraMusica                                      src/main.o
 atexit                                            d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-atexit.o)
                                                   d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
                                                   d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o
-but_callback                                      src/main.o
 comp                                              src/main.o
 cpu_irq_enter_critical                            src/ASF/common/utils/interrupt/interrupt_sam_nvic.o
 cpu_irq_leave_critical                            src/ASF/common/utils/interrupt/interrupt_sam_nvic.o
 exception_table                                   src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
 exit                                              d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-exit.o)
                                                   d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o
-flag                                              src/main.o
 free                                              d:/insper-stuff/embarcada/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
 g_interrupt_enabled                               src/ASF/common/utils/interrupt/interrupt_sam_nvic.o
                                                   src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
@@ -4528,6 +4526,8 @@ mpu_set_region                                    src/ASF/sam/drivers/mpu/mpu.o
 mpu_set_region_num                                src/ASF/sam/drivers/mpu/mpu.o
 mpu_update_regions                                src/ASF/sam/drivers/mpu/mpu.o
 musica                                            src/main.o
+pausaMusica                                       src/main.o
+pause                                             src/main.o
 pio_capture_disable                               src/ASF/sam/drivers/pio/pio.o
 pio_capture_disable_interrupt                     src/ASF/sam/drivers/pio/pio.o
 pio_capture_enable                                src/ASF/sam/drivers/pio/pio.o

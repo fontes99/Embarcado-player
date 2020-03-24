@@ -33,9 +33,9 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
  14 .debug_line   0000733b  00000000  00000000  0005073c  2**0
                   CONTENTS, READONLY, DEBUGGING
- 15 .debug_str    00089f22  00000000  00000000  00057a77  2**0
+ 15 .debug_str    00089f30  00000000  00000000  00057a77  2**0
                   CONTENTS, READONLY, DEBUGGING
- 16 .debug_frame  00000ff0  00000000  00000000  000e199c  2**2
+ 16 .debug_frame  00000ff0  00000000  00000000  000e19a8  2**2
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -1956,15 +1956,15 @@ void system_init_flash( uint32_t ul_clk )
   400bb4:	04000200 	.word	0x04000200
   400bb8:	04000300 	.word	0x04000300
 
-00400bbc <but_callback>:
+00400bbc <pausaMusica>:
 volatile char comp;
 volatile char musica;
 
-void but_callback(void)
+void pausaMusica(void)
 {
-	flag = 1;
+	pause = 1;
   400bbc:	2201      	movs	r2, #1
-  400bbe:	4b01      	ldr	r3, [pc, #4]	; (400bc4 <but_callback+0x8>)
+  400bbe:	4b01      	ldr	r3, [pc, #4]	; (400bc4 <pausaMusica+0x8>)
   400bc0:	701a      	strb	r2, [r3, #0]
   400bc2:	4770      	bx	lr
   400bc4:	20400cec 	.word	0x20400cec
@@ -2185,7 +2185,7 @@ void init(void){
 
 	// Configura interrupção no pino referente ao botao e associa
 	// função de callback caso uma interrupção for gerada
-	// a função de callback é a: but_callback()
+	// a função de callback é a: pausaMusica()
 	pio_handler_set(BUT1_PIO,
   400d24:	4b19      	ldr	r3, [pc, #100]	; (400d8c <init+0x1a0>)
   400d26:	9300      	str	r3, [sp, #0]
@@ -2198,7 +2198,7 @@ void init(void){
 					BUT1_PIO_ID,
 					BUT1_IDX_MASK,
 					PIO_IT_RISE_EDGE,
-					but_callback);
+					pausaMusica);
 
 	pio_handler_set(BUT3_PIO,
   400d34:	4b17      	ldr	r3, [pc, #92]	; (400d94 <init+0x1a8>)
@@ -2235,7 +2235,7 @@ __STATIC_INLINE void NVIC_SetPriority(IRQn_Type IRQn, uint32_t priority)
 	NVIC_EnableIRQ(BUT3_PIO_ID);
 	NVIC_SetPriority(BUT3_PIO_ID, 2); // Prioridade 2
 	
-	flag = 0;
+	pause = 0;
   400d5c:	4b0f      	ldr	r3, [pc, #60]	; (400d9c <init+0x1b0>)
   400d5e:	701c      	strb	r4, [r3, #0]
 	comp = 0;
@@ -2306,7 +2306,7 @@ void tocarMusica(int tempo, int melody[], int n_notas){
   400dde:	2002      	movs	r0, #2
   400de0:	4b87      	ldr	r3, [pc, #540]	; (401000 <tocarMusica+0x248>)
   400de2:	4798      	blx	r3
-			flag = 0;
+			pause = 0;
   400de4:	2200      	movs	r2, #0
   400de6:	4b87      	ldr	r3, [pc, #540]	; (401004 <tocarMusica+0x24c>)
   400de8:	701a      	strb	r2, [r3, #0]
@@ -2367,7 +2367,7 @@ void tocarMusica(int tempo, int melody[], int n_notas){
   400e5e:	9b04      	ldr	r3, [sp, #16]
   400e60:	4553      	cmp	r3, sl
   400e62:	ddc8      	ble.n	400df6 <tocarMusica+0x3e>
-		if(flag){
+		if(pause){
   400e64:	4b67      	ldr	r3, [pc, #412]	; (401004 <tocarMusica+0x24c>)
   400e66:	781b      	ldrb	r3, [r3, #0]
   400e68:	2b00      	cmp	r3, #0

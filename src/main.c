@@ -91,13 +91,13 @@
 /* interrupcoes                                                         */
 /************************************************************************/
 
-volatile char flag;
+volatile char pause;
 volatile char comp;
 volatile char musica;
 
-void but_callback(void)
+void pausaMusica(void)
 {
-	flag = 1;
+	pause = 1;
 }
 
 void alteraMusica(void){
@@ -186,12 +186,12 @@ void init(void){
 
 	// Configura interrupção no pino referente ao botao e associa
 	// função de callback caso uma interrupção for gerada
-	// a função de callback é a: but_callback()
+	// a função de callback é a: pausaMusica()
 	pio_handler_set(BUT1_PIO,
 					BUT1_PIO_ID,
 					BUT1_IDX_MASK,
 					PIO_IT_RISE_EDGE,
-					but_callback);
+					pausaMusica);
 
 	pio_handler_set(BUT3_PIO,
 					BUT3_PIO_ID,
@@ -206,7 +206,7 @@ void init(void){
 	NVIC_EnableIRQ(BUT3_PIO_ID);
 	NVIC_SetPriority(BUT3_PIO_ID, 2); // Prioridade 2
 	
-	flag = 0;
+	pause = 0;
 	comp = 0;
 	musica = 0;
 	
@@ -227,9 +227,9 @@ void tocarMusica(int tempo, int melody[], int n_notas){
 	for (int thisNote = 0; thisNote < n_notas; thisNote += 2) {
 
 		// checa se deu pause
-		if(flag){
+		if(pause){
 			pmc_sleep(SAM_PM_SMODE_SLEEP_WFI);
-			flag = 0;
+			pause = 0;
 		}
 		
 		// checa se trocou de música
