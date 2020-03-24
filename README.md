@@ -1,10 +1,10 @@
 # Buzzer 8bit player Embarcado
 
 
-[Dragão sem Chama](https://dragaosemchama.com/en/2019/02/songs-for-arduino/)
+As listas das músicas e a lógica de como utilizá-las foram baseadas da lógica a[Dragão sem Chama](https://dragaosemchama.com/en/2019/02/songs-for-arduino/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMjY3Nzk2MywxODA0NjcyMTExLDE3OT
-IyMTA0ODBdfQ==
+eyJoaXN0b3J5IjpbMTIyNDkzMTUxMiwxMjIyNjc3OTYzLDE4MD
+Q2NzIxMTEsMTc5MjIxMDQ4MF19
 -->
