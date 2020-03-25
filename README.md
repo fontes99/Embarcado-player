@@ -68,13 +68,9 @@ Depois disso, o código já estará embarcado na placa e ela estará pronta pra 
 
 O projeto contem 3 músicas indicadas pelos LEDs 1 e 3 da placa OLED:
 
-| d | c|
-|--|--|
-|d  |  |
-
-
+|Música|LED 1|LED 3|
+|--|--|--|
 |Game of thrones|0|1|
-|--||--|
 |Song of Storms|1|0|
 |Harry Potter|1|1| 
 
@@ -84,7 +80,7 @@ As listas das músicas e a lógica de como utilizá-las foram baseadas da lógic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjM1ODI1OTIsMTQ5MDkwNDk0OCwxOT
+eyJoaXN0b3J5IjpbLTE1NjgxNjIyMjIsMTQ5MDkwNDk0OCwxOT
 EwNDQ5MzIwLDMzMTQ5OTgxMSwtMTE3OTEwMDkzMywtMjkyNDI5
 OTkzLDEyMjI2Nzc5NjMsMTgwNDY3MjExMSwxNzkyMjEwNDgwXX
 0=
