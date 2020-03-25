@@ -43,9 +43,6 @@ Só precisamos nos preocupar com três conexões na hora de configurar os compon
 ### Ambiente de compilação
 Para passar o código para a placa, usamos o [Atmel Studio](https://www.microchip.com/mplab/avr-support/atmel-studio-7). Ele será o responsável pela compilação do código na placa
 
-A placa esta pronta para ser utilizada
-
-
 ## Utilização 
 
 Clone este repositório em sua máquina
@@ -55,7 +52,9 @@ Clone este repositório em sua máquina
 
 Baixe o Atmel Studio e abra o arquivo com extenção "solução", plugue a placa e depois clique em 'Star Without Debugging'
 
-Depois disso, o código já estará embarcado na  
+Depois disso, o código já estará embarcado na placa e ela estará pronta pra ser utilizada
+
+
 
 #
 ### Referências
@@ -63,7 +62,8 @@ As listas das músicas e a lógica de como utilizá-las foram baseadas da lógic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk2NDA5NTA0LDE0OTA5MDQ5NDgsMTkxMD
-Q0OTMyMCwzMzE0OTk4MTEsLTExNzkxMDA5MzMsLTI5MjQyOTk5
-MywxMjIyNjc3OTYzLDE4MDQ2NzIxMTEsMTc5MjIxMDQ4MF19
+eyJoaXN0b3J5IjpbLTE0ODIwNzMxNjIsMTQ5MDkwNDk0OCwxOT
+EwNDQ5MzIwLDMzMTQ5OTgxMSwtMTE3OTEwMDkzMywtMjkyNDI5
+OTkzLDEyMjI2Nzc5NjMsMTgwNDY3MjExMSwxNzkyMjEwNDgwXX
+0=
 -->
