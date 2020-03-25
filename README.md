@@ -1,6 +1,5 @@
-# Buzzer 8bit player Embarcado
-
-
+# Buzzer 8-bit player Embarcado
+Projeto de Computação Embarcada do 5° semestre de engenharia  
 
 
 #
@@ -10,6 +9,7 @@ As listas das músicas e a lógica de como utilizá-las foram baseadas da lógic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzkxMDA5MzMsLTI5MjQyOTk5MywxMj
-IyNjc3OTYzLDE4MDQ2NzIxMTEsMTc5MjIxMDQ4MF19
+eyJoaXN0b3J5IjpbLTE4NDIwNzg1NjEsLTExNzkxMDA5MzMsLT
+I5MjQyOTk5MywxMjIyNjc3OTYzLDE4MDQ2NzIxMTEsMTc5MjIx
+MDQ4MF19
 -->
