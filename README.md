@@ -32,7 +32,8 @@ O projeto contem três funcionalidades:
 ### Ambiente de compilação
 Para passar o código para a placa, usamos o [Atmel Studio](https://www.microchip.com/mplab/avr-support/atmel-studio-7). Ele será o responsável pela compilação do código na placa.
 
-Baixe o Atmel Studio e abra 
+Baixe o Atmel Studio e abra o arquivo com extenção "solução".
+Plugue a placa e depois clique em 'Star Without Debugging' 
 
 
 ## Utilização 
@@ -49,8 +50,7 @@ As listas das músicas e a lógica de como utilizá-las foram baseadas da lógic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjI5MjMyMjgsMTQ5MDkwNDk0OCwxOT
-EwNDQ5MzIwLDMzMTQ5OTgxMSwtMTE3OTEwMDkzMywtMjkyNDI5
-OTkzLDEyMjI2Nzc5NjMsMTgwNDY3MjExMSwxNzkyMjEwNDgwXX
-0=
+eyJoaXN0b3J5IjpbMjM0ODI0NDk2LDE0OTA5MDQ5NDgsMTkxMD
+Q0OTMyMCwzMzE0OTk4MTEsLTExNzkxMDA5MzMsLTI5MjQyOTk5
+MywxMjIyNjc3OTYzLDE4MDQ2NzIxMTEsMTc5MjIxMDQ4MF19
 -->
