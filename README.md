@@ -2,6 +2,7 @@
 Projeto de Computação Embarcada do 5° semestre de Engenharia de Computação - INSPER.
 
  O projeto consiste em um player de músicas 8-bit feito em uma placa SAM-E70 com algumas funcionalidades
+ 
  ![enter image description here](https://images-eu.ssl-images-amazon.com/images/I/51rq+6O6TYL._SR600,315_PIWhiteStrip,BottomLeft,0,35_SCLZZZZZZZ_.jpg)
 
 ## Descrição do projeto
@@ -79,8 +80,8 @@ As listas das músicas e a lógica de como utilizá-las foram baseadas da lógic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzg2Njg4NzEsMTQ5MDkwNDk0OCwxOT
-EwNDQ5MzIwLDMzMTQ5OTgxMSwtMTE3OTEwMDkzMywtMjkyNDI5
-OTkzLDEyMjI2Nzc5NjMsMTgwNDY3MjExMSwxNzkyMjEwNDgwXX
-0=
+eyJoaXN0b3J5IjpbMTYzMjE0NDM5MywxNDkwOTA0OTQ4LDE5MT
+A0NDkzMjAsMzMxNDk5ODExLC0xMTc5MTAwOTMzLC0yOTI0Mjk5
+OTMsMTIyMjY3Nzk2MywxODA0NjcyMTExLDE3OTIyMTA0ODBdfQ
+==
 -->
