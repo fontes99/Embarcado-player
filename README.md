@@ -1,7 +1,10 @@
 # Buzzer 8-bit player Embarcado
 Projeto de Computação Embarcada do 5° semestre de Engenharia de Computação - INSPER.
 
- O projeto consiste em um player de músicas 8-bit feito em uma placa embarcada com algumas funcionalidades e f
+ O projeto consiste em um player de músicas 8-bit feito em uma placa SAM-E70 com algumas funcionalidades
+
+### Set up
+
 
 
 #
@@ -10,7 +13,7 @@ As listas das músicas e a lógica de como utilizá-las foram baseadas da lógic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMzOTc5MTEyLC0xMTc5MTAwOTMzLC0yOT
-I0Mjk5OTMsMTIyMjY3Nzk2MywxODA0NjcyMTExLDE3OTIyMTA0
-ODBdfQ==
+eyJoaXN0b3J5IjpbLTEzNTUxNTgxNzksLTExNzkxMDA5MzMsLT
+I5MjQyOTk5MywxMjIyNjc3OTYzLDE4MDQ2NzIxMTEsMTc5MjIx
+MDQ4MF19
 -->
