@@ -17,11 +17,16 @@ O Buzzer e a Placa secundaria estão conectados na Placa SAM-E70
 
 ### Funcionalidades
 
-O projeto contem duas funcionalidades:
+O projeto contem três funcionalidades:
 
- - Botão de pause
- - Botão para alternar músicas
- - Botão para iniciar uma música do começo (usado apenas para começar a tocar depois que se acaba, pela primeira vez depois de compilado ou para iniciar depois de se troc
+ - Botão 1 do OLED
+	 - Botão de pause
+- Botão 2 do OLED
+	 - Botão para alternar músicas
+- Botão 3 do o
+	 - Botão para iniciar uma música do começo (usado apenas para começar a tocar depois que se acaba, pela primeira vez depois de compilado ou para iniciar depois de se trocar de música
+
+
 
 ## Configurando os componentes e ambiente
 
@@ -40,7 +45,7 @@ As listas das músicas e a lógica de como utilizá-las foram baseadas da lógic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgyODE3MTc4LDE0OTA5MDQ5NDgsMTkxMD
+eyJoaXN0b3J5IjpbNjg1ODQ1NzQ5LDE0OTA5MDQ5NDgsMTkxMD
 Q0OTMyMCwzMzE0OTk4MTEsLTExNzkxMDA5MzMsLTI5MjQyOTk5
 MywxMjIyNjc3OTYzLDE4MDQ2NzIxMTEsMTc5MjIxMDQ4MF19
 -->
