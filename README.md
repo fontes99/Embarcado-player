@@ -29,8 +29,9 @@ O projeto contem três funcionalidades:
 
 
 ## Configurando os componentes e ambiente
-### Ligações elétricas
 
+### Ligações elétricas
+O Tone Buzzer 
 
 
 ### Ambiente de compilação
@@ -55,8 +56,8 @@ As listas das músicas e a lógica de como utilizá-las foram baseadas da lógic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNzcyODgzNSwxNDkwOTA0OTQ4LDE5MT
-A0NDkzMjAsMzMxNDk5ODExLC0xMTc5MTAwOTMzLC0yOTI0Mjk5
-OTMsMTIyMjY3Nzk2MywxODA0NjcyMTExLDE3OTIyMTA0ODBdfQ
-==
+eyJoaXN0b3J5IjpbLTExMDM1NjM0NjQsMTQ5MDkwNDk0OCwxOT
+EwNDQ5MzIwLDMzMTQ5OTgxMSwtMTE3OTEwMDkzMywtMjkyNDI5
+OTkzLDEyMjI2Nzc5NjMsMTgwNDY3MjExMSwxNzkyMjEwNDgwXX
+0=
 -->
