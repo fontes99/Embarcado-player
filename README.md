@@ -60,16 +60,25 @@ Depois disso, o código já estará embarcado na placa e ela estará pronta pra 
 
 ### Como Usar
 
- - Aperte o botão 2 para começar a tocar a musica indicada pelos LEDs 1 e 3
+ - Aperte o botão 2 para começar a tocar a musica indicada pelos LEDs 
+
  - Ao apertar o botão 1, a música sera pausada. Para retomá-la, aperte novamente o botão 1
+
  - Para trocar de música aperte o botão 3
-#
+
+O projeto contem 3 músicas indicadas pelos LEDs 1 e 3 da placa OLED:
+|  |  |
+|Game of thrones} --|--|
+|  |  |
+
+
 ### Referências
 As listas das músicas e a lógica de como utilizá-las foram baseadas da lógica apresentada no site [Dragão sem Chama](https://dragaosemchama.com/en/2019/02/songs-for-arduino/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM3MTgwMTYsMTQ5MDkwNDk0OCwxOTEwND
-Q5MzIwLDMzMTQ5OTgxMSwtMTE3OTEwMDkzMywtMjkyNDI5OTkz
-LDEyMjI2Nzc5NjMsMTgwNDY3MjExMSwxNzkyMjEwNDgwXX0=
+eyJoaXN0b3J5IjpbLTE4MTY2MjQ5NjAsMTQ5MDkwNDk0OCwxOT
+EwNDQ5MzIwLDMzMTQ5OTgxMSwtMTE3OTEwMDkzMywtMjkyNDI5
+OTkzLDEyMjI2Nzc5NjMsMTgwNDY3MjExMSwxNzkyMjEwNDgwXX
+0=
 -->
