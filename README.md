@@ -34,7 +34,8 @@ O projeto contem três funcionalidades:
 Só precisamos nos preocupar com três conexões na hora de configurar os componentes:
 
  - Qualquer um dos dois pinos do Tone Buzzer será conectado no GND da SAM-E70 
- - O outro pino do
+ - O outro pino do Buzzer será conectado na entrada PA19 
+ - A placa OLED será conectada na EXT2 da SAM-E70, envolvendo todos os pinos (as ligações deles se encontram no có
 
 ### Ambiente de compilação
 Para passar o código para a placa, usamos o [Atmel Studio](https://www.microchip.com/mplab/avr-support/atmel-studio-7). Ele será o responsável pela compilação do código na placa.
@@ -58,8 +59,7 @@ As listas das músicas e a lógica de como utilizá-las foram baseadas da lógic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTA5ODA4MSwxNDkwOTA0OTQ4LDE5MT
-A0NDkzMjAsMzMxNDk5ODExLC0xMTc5MTAwOTMzLC0yOTI0Mjk5
-OTMsMTIyMjY3Nzk2MywxODA0NjcyMTExLDE3OTIyMTA0ODBdfQ
-==
+eyJoaXN0b3J5IjpbOTIxMTAyMDEwLDE0OTA5MDQ5NDgsMTkxMD
+Q0OTMyMCwzMzE0OTk4MTEsLTExNzkxMDA5MzMsLTI5MjQyOTk5
+MywxMjIyNjc3OTYzLDE4MDQ2NzIxMTEsMTc5MjIxMDQ4MF19
 -->
