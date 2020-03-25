@@ -3,7 +3,7 @@ Projeto de Computação Embarcada do 5° semestre de Engenharia de Computação 
 
  O projeto consiste em um player de músicas 8-bit feito em uma placa SAM-E70 com algumas funcionalidades
  
- ![enter image description here](https://images-eu.ssl-images-amazon.com/images/I/51rq+6O6TYL._SR600,315_PIWhiteStrip,BottomLeft,0,35_SCLZZZZZZZ_.jpg)
+![enter image description here](https://images-eu.ssl-images-amazon.com/images/I/51rq+6O6TYL._SR600,315_PIWhiteStrip,BottomLeft,0,35_SCLZZZZZZZ_.jpg)
 
 ## Descrição do projeto
 
@@ -74,14 +74,16 @@ O projeto contem 3 músicas indicadas pelos LEDs 1 e 3 da placa OLED:
 |Song of Storms|1|0|
 |Harry Potter|1|1| 
 
+### Demo
+[https://www.youtube.com/watch?v=EEIin1TU7ok](https://www.youtube.com/watch?v=EEIin1TU7ok)
 #
 ### Referências
 As listas das músicas e a lógica de como utilizá-las foram baseadas da lógica apresentada no site [Dragão sem Chama](https://dragaosemchama.com/en/2019/02/songs-for-arduino/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMjE0NDM5MywxNDkwOTA0OTQ4LDE5MT
-A0NDkzMjAsMzMxNDk5ODExLC0xMTc5MTAwOTMzLC0yOTI0Mjk5
-OTMsMTIyMjY3Nzk2MywxODA0NjcyMTExLDE3OTIyMTA0ODBdfQ
-==
+eyJoaXN0b3J5IjpbNTkyMTg0MjA2LDE2MzIxNDQzOTMsMTQ5MD
+kwNDk0OCwxOTEwNDQ5MzIwLDMzMTQ5OTgxMSwtMTE3OTEwMDkz
+MywtMjkyNDI5OTkzLDEyMjI2Nzc5NjMsMTgwNDY3MjExMSwxNz
+kyMjEwNDgwXX0=
 -->
