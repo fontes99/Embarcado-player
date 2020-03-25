@@ -8,7 +8,8 @@ Projeto de Computação Embarcada do 5° semestre de Engenharia de Computação 
 Para a realização do projeto, foram utilizados três componentes:
 
  - Placa ATSAME70-XPLD
- - 
+ - Tone Buzzer
+ - Placa secundaria OLED
 
 ### Funcionalidades
 
@@ -24,7 +25,7 @@ As listas das músicas e a lógica de como utilizá-las foram baseadas da lógic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjA3MzQ2NzIsMTkxMDQ0OTMyMCwzMz
-E0OTk4MTEsLTExNzkxMDA5MzMsLTI5MjQyOTk5MywxMjIyNjc3
-OTYzLDE4MDQ2NzIxMTEsMTc5MjIxMDQ4MF19
+eyJoaXN0b3J5IjpbMTQ2NDg3MDAzLDE5MTA0NDkzMjAsMzMxND
+k5ODExLC0xMTc5MTAwOTMzLC0yOTI0Mjk5OTMsMTIyMjY3Nzk2
+MywxODA0NjcyMTExLDE3OTIyMTA0ODBdfQ==
 -->
