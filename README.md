@@ -21,7 +21,7 @@ O projeto contem duas funcionalidades:
 
  - Botão de pause
  - Botão para alternar músicas
- - Botão para iniciar uma música do começo (
+ - Botão para iniciar uma música do começo (usado apenas para começar a tocar depois que se acaba, pela primeira vez depois de compilado ou para iniciar depois de se troc
 
 ## Configurando os componentes e ambiente
 
@@ -40,8 +40,7 @@ As listas das músicas e a lógica de como utilizá-las foram baseadas da lógic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODUwMzQ1ODYsMTQ5MDkwNDk0OCwxOT
-EwNDQ5MzIwLDMzMTQ5OTgxMSwtMTE3OTEwMDkzMywtMjkyNDI5
-OTkzLDEyMjI2Nzc5NjMsMTgwNDY3MjExMSwxNzkyMjEwNDgwXX
-0=
+eyJoaXN0b3J5IjpbNjgyODE3MTc4LDE0OTA5MDQ5NDgsMTkxMD
+Q0OTMyMCwzMzE0OTk4MTEsLTExNzkxMDA5MzMsLTI5MjQyOTk5
+MywxMjIyNjc3OTYzLDE4MDQ2NzIxMTEsMTc5MjIxMDQ4MF19
 -->
