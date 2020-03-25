@@ -5,7 +5,7 @@ Projeto de Computação Embarcada do 5° semestre de Engenharia de Computação 
 
 ## Descrição do projeto
 
-Para realizar o projeto, foram utilizados três compo
+Para a realização do projeto, foram utilizados três componentes
 
 ### Funcionalidades
 
@@ -21,7 +21,7 @@ As listas das músicas e a lógica de como utilizá-las foram baseadas da lógic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyOTEyMzMsMzMxNDk5ODExLC0xMTc5MT
-AwOTMzLC0yOTI0Mjk5OTMsMTIyMjY3Nzk2MywxODA0NjcyMTEx
-LDE3OTIyMTA0ODBdfQ==
+eyJoaXN0b3J5IjpbMTkxMDQ0OTMyMCwzMzE0OTk4MTEsLTExNz
+kxMDA5MzMsLTI5MjQyOTk5MywxMjIyNjc3OTYzLDE4MDQ2NzIx
+MTEsMTc5MjIxMDQ4MF19
 -->
