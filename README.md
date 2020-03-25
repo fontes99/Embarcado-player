@@ -60,17 +60,14 @@ Depois disso, o código já estará embarcado na placa e ela estará pronta pra 
 
 ### Como Usar
 
-Aperte o botão 2 para começar a tocar a musica indicada pelos LEDs 1 e 3
-
-
-
+ - Aperte o botão 2 para começar a tocar a musica indicada pelos LEDs 1 e 3
 #
 ### Referências
 As listas das músicas e a lógica de como utilizá-las foram baseadas da lógica apresentada no site [Dragão sem Chama](https://dragaosemchama.com/en/2019/02/songs-for-arduino/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5Nzk1NDM2MSwxNDkwOTA0OTQ4LDE5MT
+eyJoaXN0b3J5IjpbMTM0Mzk5MjMzMCwxNDkwOTA0OTQ4LDE5MT
 A0NDkzMjAsMzMxNDk5ODExLC0xMTc5MTAwOTMzLC0yOTI0Mjk5
 OTMsMTIyMjY3Nzk2MywxODA0NjcyMTExLDE3OTIyMTA0ODBdfQ
 ==
