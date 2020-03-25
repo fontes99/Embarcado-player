@@ -17,9 +17,13 @@ O Buzzer e a Placa secundaria estão conectados na Placa SAM-E70
 
 ### Funcionalidades
 
-O projeto contem duas funcionalidades 
+O projeto contem duas funcionalidades:
 
-## Configurando os componentes
+ - Botão de pause
+ - Botão para alternar músicas
+ - Botão para iniciar uma música do começo (
+
+## Configurando os componentes e ambiente
 
 
 ## Utilização 
@@ -36,7 +40,8 @@ As listas das músicas e a lógica de como utilizá-las foram baseadas da lógic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MDkwNDk0OCwxOTEwNDQ5MzIwLDMzMT
-Q5OTgxMSwtMTE3OTEwMDkzMywtMjkyNDI5OTkzLDEyMjI2Nzc5
-NjMsMTgwNDY3MjExMSwxNzkyMjEwNDgwXX0=
+eyJoaXN0b3J5IjpbLTE3ODUwMzQ1ODYsMTQ5MDkwNDk0OCwxOT
+EwNDQ5MzIwLDMzMTQ5OTgxMSwtMTE3OTEwMDkzMywtMjkyNDI5
+OTkzLDEyMjI2Nzc5NjMsMTgwNDY3MjExMSwxNzkyMjEwNDgwXX
+0=
 -->
