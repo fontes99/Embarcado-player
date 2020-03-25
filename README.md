@@ -24,8 +24,8 @@ O projeto contem duas funcionalidades
 
 ## Utilização 
 
- 1. Clone este repositório em sua máquina
- `git glone`
+ - Clone este repositório em sua máquina
+`git clone https://github.com/fontes99/Embarcado-player.git` 
 
 #
 ### Referências
@@ -33,7 +33,7 @@ As listas das músicas e a lógica de como utilizá-las foram baseadas da lógic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA3Nzk0NzU5LDE5MTA0NDkzMjAsMzMxND
-k5ODExLC0xMTc5MTAwOTMzLC0yOTI0Mjk5OTMsMTIyMjY3Nzk2
-MywxODA0NjcyMTExLDE3OTIyMTA0ODBdfQ==
+eyJoaXN0b3J5IjpbLTk3NzA3MjU4MSwxOTEwNDQ5MzIwLDMzMT
+Q5OTgxMSwtMTE3OTEwMDkzMywtMjkyNDI5OTkzLDEyMjI2Nzc5
+NjMsMTgwNDY3MjExMSwxNzkyMjEwNDgwXX0=
 -->
