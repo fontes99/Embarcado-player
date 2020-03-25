@@ -11,12 +11,13 @@ Para a realização do projeto, foram utilizados três componentes:
 	 - LED principal, botão de reset e um botão para uso geral
  - Tone Buzzer
  - Placa secundaria OLED XPLAINED PRO
-	 - 3 LEDs e 3 botões para uso
+	 - 3 LEDs e 3 botões para uso genérico
 
 O Buzzer e a Placa secundaria estão conectados na Placa SAM-E70
 
 ### Funcionalidades
 
+O projeto contem duas funcionalidades 
 
 ## Configurando os componentes
 
@@ -29,7 +30,7 @@ As listas das músicas e a lógica de como utilizá-las foram baseadas da lógic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MjgyODE0NSwxOTEwNDQ5MzIwLDMzMT
+eyJoaXN0b3J5IjpbMjA3NDI1MjY2OSwxOTEwNDQ5MzIwLDMzMT
 Q5OTgxMSwtMTE3OTEwMDkzMywtMjkyNDI5OTkzLDEyMjI2Nzc5
 NjMsMTgwNDY3MjExMSwxNzkyMjEwNDgwXX0=
 -->
