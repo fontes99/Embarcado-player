@@ -2,6 +2,8 @@
 Projeto de Computação Embarcada do 5° semestre de Engenharia de Computação - INSPER.
 
  O projeto consiste em um player de músicas 8-bit feito em uma placa SAM-E70 com algumas funcionalidades
+ 
+ ![Placa SAM-E70](https://br.mouser.com/images/atmel/lrg/ATSAME70XPLD_SPL.jpg)
 
 ## Descrição do projeto
 
@@ -13,7 +15,7 @@ Para a realização do projeto, foram utilizados três componentes:
  - 
  - Placa secundaria OLED XPLAINED PRO
 	 - 3 LEDs e 3 botões para uso genérico
-
+![enter image description here](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREcS6BJ7bOBOjqI4SoKPhV11w2Aac9E5B6UCRPgGQRP15GaOjI)
 O Buzzer e a Placa secundaria estão conectados na Placa SAM-E70
 
 ### Funcionalidades
@@ -62,8 +64,8 @@ As listas das músicas e a lógica de como utilizá-las foram baseadas da lógic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODIwNzMxNjIsMTQ5MDkwNDk0OCwxOT
-EwNDQ5MzIwLDMzMTQ5OTgxMSwtMTE3OTEwMDkzMywtMjkyNDI5
-OTkzLDEyMjI2Nzc5NjMsMTgwNDY3MjExMSwxNzkyMjEwNDgwXX
-0=
+eyJoaXN0b3J5IjpbLTcyNDM0MjI3NywxNDkwOTA0OTQ4LDE5MT
+A0NDkzMjAsMzMxNDk5ODExLC0xMTc5MTAwOTMzLC0yOTI0Mjk5
+OTMsMTIyMjY3Nzk2MywxODA0NjcyMTExLDE3OTIyMTA0ODBdfQ
+==
 -->
