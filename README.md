@@ -3,7 +3,8 @@ Projeto de Computação Embarcada do 5° semestre de Engenharia de Computação 
 
  O projeto consiste em um player de músicas 8-bit feito em uma placa SAM-E70 com algumas funcionalidades
 
-### Set up
+## 
+
 
 
 
@@ -13,7 +14,7 @@ As listas das músicas e a lógica de como utilizá-las foram baseadas da lógic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTUxNTgxNzksLTExNzkxMDA5MzMsLT
-I5MjQyOTk5MywxMjIyNjc3OTYzLDE4MDQ2NzIxMTEsMTc5MjIx
-MDQ4MF19
+eyJoaXN0b3J5IjpbMTQ3NzI5MTQ5NSwtMTE3OTEwMDkzMywtMj
+kyNDI5OTkzLDEyMjI2Nzc5NjMsMTgwNDY3MjExMSwxNzkyMjEw
+NDgwXX0=
 -->
