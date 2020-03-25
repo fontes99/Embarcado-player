@@ -30,7 +30,9 @@ O projeto contem três funcionalidades:
 
 ## Configurando os componentes e ambiente
 ### Ambiente de compilação
-Para passar o código para a placa, usamos o [Atmel studio](https://www.microchip.com/mplab/avr-support/atmel-studio-7) e com ele fizemos todas as configur
+Para passar o código para a placa, usamos o [Atmel Studio](https://www.microchip.com/mplab/avr-support/atmel-studio-7). Ele será o responsável pela compilação do código na placa.
+
+Baixe o Atmel Studio e abra 
 
 
 ## Utilização 
@@ -47,8 +49,8 @@ As listas das músicas e a lógica de como utilizá-las foram baseadas da lógic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDYyOTc2MywxNDkwOTA0OTQ4LDE5MT
-A0NDkzMjAsMzMxNDk5ODExLC0xMTc5MTAwOTMzLC0yOTI0Mjk5
-OTMsMTIyMjY3Nzk2MywxODA0NjcyMTExLDE3OTIyMTA0ODBdfQ
-==
+eyJoaXN0b3J5IjpbLTIwNjI5MjMyMjgsMTQ5MDkwNDk0OCwxOT
+EwNDQ5MzIwLDMzMTQ5OTgxMSwtMTE3OTEwMDkzMywtMjkyNDI5
+OTkzLDEyMjI2Nzc5NjMsMTgwNDY3MjExMSwxNzkyMjEwNDgwXX
+0=
 -->
