@@ -74,14 +74,14 @@ O projeto contem 3 músicas indicadas pelos LEDs 1 e 3 da placa OLED:
 |Song of Storms|1|0|
 |Harry Potter|1|1| 
 
-
+#
 ### Referências
 As listas das músicas e a lógica de como utilizá-las foram baseadas da lógica apresentada no site [Dragão sem Chama](https://dragaosemchama.com/en/2019/02/songs-for-arduino/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjgxNjIyMjIsMTQ5MDkwNDk0OCwxOT
-EwNDQ5MzIwLDMzMTQ5OTgxMSwtMTE3OTEwMDkzMywtMjkyNDI5
-OTkzLDEyMjI2Nzc5NjMsMTgwNDY3MjExMSwxNzkyMjEwNDgwXX
-0=
+eyJoaXN0b3J5IjpbLTQ0NDIzOTE5MywxNDkwOTA0OTQ4LDE5MT
+A0NDkzMjAsMzMxNDk5ODExLC0xMTc5MTAwOTMzLC0yOTI0Mjk5
+OTMsMTIyMjY3Nzk2MywxODA0NjcyMTExLDE3OTIyMTA0ODBdfQ
+==
 -->
