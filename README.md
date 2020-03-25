@@ -8,9 +8,10 @@ Projeto de Computação Embarcada do 5° semestre de Engenharia de Computação 
 Para a realização do projeto, foram utilizados três componentes:
 
  - Placa ATSAME70-XPLD (SAM-E70 Atmel)
-	 - 
+	 - LED principal, botão de reset e um botão para uso geral
  - Tone Buzzer
  - Placa secundaria OLED XPLAINED PRO
+	 - 3 LEDs e 3 botões para uso
 
 O Buzzer e a Placa secundaria estão conectados na Placa SAM-E70
 
@@ -28,7 +29,7 @@ As listas das músicas e a lógica de como utilizá-las foram baseadas da lógic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MzUwODA2MCwxOTEwNDQ5MzIwLDMzMT
+eyJoaXN0b3J5IjpbMTc1MjgyODE0NSwxOTEwNDQ5MzIwLDMzMT
 Q5OTgxMSwtMTE3OTEwMDkzMywtMjkyNDI5OTkzLDEyMjI2Nzc5
 NjMsMTgwNDY3MjExMSwxNzkyMjEwNDgwXX0=
 -->
