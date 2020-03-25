@@ -16,7 +16,7 @@ Para a realização do projeto, foram utilizados três componentes:
  - Placa secundaria OLED XPLAINED PRO
 	 - 3 LEDs e 3 botões para uso genérico
 
-![enter image description here](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREcS6BJ7bOBOjqI4SoKPhV11w2Aac9E5B6UCRPgGQRP15GaOjI)
+![OLED XPLAINED PRO](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREcS6BJ7bOBOjqI4SoKPhV11w2Aac9E5B6UCRPgGQRP15GaOjI)
 
 O Buzzer e a Placa secundaria estão conectados na Placa SAM-E70
 
@@ -58,6 +58,10 @@ Baixe o Atmel Studio e abra o arquivo com extenção "solução", plugue a placa
 
 Depois disso, o código já estará embarcado na placa e ela estará pronta pra ser utilizada
 
+### Como Usar
+
+Aperte o botão 2 para começar a tocar a musica indicada pelos LEDs 1 e 3
+
 
 
 #
@@ -66,7 +70,8 @@ As listas das músicas e a lógica de como utilizá-las foram baseadas da lógic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ3NDE1MjI3LDE0OTA5MDQ5NDgsMTkxMD
-Q0OTMyMCwzMzE0OTk4MTEsLTExNzkxMDA5MzMsLTI5MjQyOTk5
-MywxMjIyNjc3OTYzLDE4MDQ2NzIxMTEsMTc5MjIxMDQ4MF19
+eyJoaXN0b3J5IjpbLTg5Nzk1NDM2MSwxNDkwOTA0OTQ4LDE5MT
+A0NDkzMjAsMzMxNDk5ODExLC0xMTc5MTAwOTMzLC0yOTI0Mjk5
+OTMsMTIyMjY3Nzk2MywxODA0NjcyMTExLDE3OTIyMTA0ODBdfQ
+==
 -->
