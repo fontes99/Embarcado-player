@@ -160,8 +160,8 @@ src/main.d src/main.o: ../src/main.c ../src/asf.h \
  ../src/ASF/sam/drivers/mpu/mpu.h ../src/ASF/sam/drivers/pmc/sleep.h \
  ../src/ASF/sam/utils/fpu/fpu.h \
  ../src/ASF/sam/boards/same70_xplained/led.h \
- ../src/ASF/sam/drivers/pio/pio_handler.h ../src/SOS.h ../src/GOT.h \
- ../src/HP.h \
+ ../src/ASF/sam/drivers/pio/pio_handler.h ../src/SOS.h ../src/notas.h \
+ ../src/GOT.h ../src/HP.h \
  d:\insper-stuff\embarcada\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\math.h
 
 ../src/asf.h:
@@ -497,6 +497,8 @@ d:\insper-stuff\embarcada\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\incl
 ../src/ASF/sam/drivers/pio/pio_handler.h:
 
 ../src/SOS.h:
+
+../src/notas.h:
 
 ../src/GOT.h:
 
